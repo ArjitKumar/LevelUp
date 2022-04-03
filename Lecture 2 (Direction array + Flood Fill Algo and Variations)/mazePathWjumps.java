@@ -4,7 +4,7 @@ public class mazePathWjumps{
 
     public static int mazePath( int sr, int sc , int er, int ec , int[][] dir, String[] dis, String psf){
 
-        if( sr == er &&  sc == ec){
+    if( sr == er &&  sc == ec){
       System.out.println( psf);
       return 1;
         }

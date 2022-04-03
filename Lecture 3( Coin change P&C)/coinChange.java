@@ -198,15 +198,15 @@ public class coinChange {
 
     public static void main(String[] args) {
 
-        int[] coin = {2,3,5,7};
+        int[] coin = {0,0,1,1,0,1};
         // System.out.println(coinChangePermutaion_Inf(coin,10,""));
         // System.out.println(coinChangeCombination_Inf(coin,10,0,""));
         // System.out.println(coinChangeCombination_Single(coin,10,0,"")); 
-        // System.out.println(coinChangePermutaion_Single(coin,10,""));
+        System.out.println(coinChangePermutaion_Single(coin,3,""));
         // System.out.println(coinChangecombination_Single_Using_Binary_Subsequence(coin,10,0,""));
         // System.out.println(coinChangePermutaion_Infinte_Using_Binary_Subsequence(coin,10,0,""));
         // System.out.println(coinChangePermutaion_Infinte_Using_Binary_Subsequence(coin,10,0,""));
-        System.out.println(coinChangePermutaion_Single_Using_Binary_Subsequence(coin,10,0,""));
+        // System.out.println(coinChangePermutaion_Single_Using_Binary_Subsequence(coin,10,0,""));
 
     }
 }
